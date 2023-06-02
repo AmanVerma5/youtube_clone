@@ -135,7 +135,7 @@ function formatDuration(duration) {
         localStorage.setItem("channel_id",element.snippet.channelId);
         document.cookie = `video_id=${videoId}; path="/video.html"`;
         let linkItem = document.createElement("a");
-        linkItem.href = "http://127.0.0.1:5500/video.html"
+        linkItem.href = "https://amanverma5.github.io/youtube_clone/video.html"
         linkItem.target = "_blank" ;
         linkItem.click();
     }else{
